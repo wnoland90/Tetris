@@ -41,8 +41,8 @@ def main():
 
         SCREEN.blit(board.board, (int((SCREEN_WIDTH - board.width) / 2), -150))
 
-        keys = pygame.key.get_pressed()
-        print(keys[81])
+        # keys = pygame.key.get_pressed()
+        # print(keys[81])
 
 
         for event in pygame.event.get():
